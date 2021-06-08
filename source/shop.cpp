@@ -3,6 +3,8 @@
 
 using namespace std;
 
+Shop::Shop()
+{}
 Shop::Shop(vector<Section> l_of_sec, vector<Seller> l_of_sel, vector<Vinyl> l_of_vin, vector<Client> l_of_cli)
 {
     list_of_sections = l_of_sec;

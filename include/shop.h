@@ -16,6 +16,7 @@ private:
     vector <Vinyl> list_of_vinyls; // wektor trzymajacy liste plyt
     vector <Client> list_of_clients; // wektor trzymajacy liste klientow
 public:
+    Shop(); // pusty konstruktor
     Shop(vector<Section> l_of_sec, vector<Seller> l_of_sel, vector<Vinyl> l_of_vin, vector<Client> l_of_cli); // konstruktor sklepu
     Shop(const Shop& S); // konstruktor kopiujacy
     void set_sections(vector<Section> l_of_sec); // setter listy dzialow
