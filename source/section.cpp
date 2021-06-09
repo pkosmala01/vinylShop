@@ -3,10 +3,10 @@
 #include "vinyl.h"
 using namespace std;
 
-Section::Section(string nameIN, vector<Vinyl> vinylIN)
+Section::Section(string nameIN)
 {
     name = nameIN;
-    vinyl = vinylIN;
+    vinyl;
 }
 Section::Section(const Section& obj)
 {

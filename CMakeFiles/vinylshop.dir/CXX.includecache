@@ -7,11 +7,7 @@
 #IncludeRegexTransform: 
 
 /mnt/d/PROI_PROJect/include/client.h
-string
--
-iostream
--
-map
+bits/stdc++.h
 -
 
 /mnt/d/PROI_PROJect/include/section.h

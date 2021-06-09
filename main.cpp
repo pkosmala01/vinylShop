@@ -23,6 +23,9 @@ void read_Vinyls()
             {
                 if(shop.get_sections()[i].getName() == genre)
                     shop.get_sections()[i].addVinyl(vinyl);
+                for(auto it : shop.get_sections())
+                    for(auto k : it.getVinyl())
+                        cout<<k.get_name();
             }
             title = artist = price_category = quantity = genre = "";
             counter = 0;
@@ -50,25 +53,25 @@ void read_Vinyls()
 
 void create_Sections()
 {
-    Section Rock(Rock);
+    Section Rock("Rock");
     shop.add_section(Rock);
-    Section Alternative(Alternative);
+    Section Alternative("Alternative");
     shop.add_section(Alternative);
-    Section Indie(Indie);
+    Section Indie("Indie");
     shop.add_section(Indie);
-    Section Hip_hop(Hip_hop);
+    Section Hip_hop("Hip_hop");
     shop.add_section(Hip_hop);
-    Section Blues(Blues);
+    Section Blues("Blues");
     shop.add_section(Blues);
-    Section Electronic(Electronic);
+    Section Electronic("Electronic");
     shop.add_section(Electronic);
-    Section Jazz(Jazz);
+    Section Jazz("Jazz");
     shop.add_section(Jazz);
-    Section Classic(Classic);
+    Section Classic("Classic");
     shop.add_section(Classic);
-    Section Pop(Pop);
+    Section Pop("Pop");
     shop.add_section(Pop);
-    Section Reggae(Reggae);
+    Section Reggae("Reggae");
     shop.add_section(Reggae);
 }
 
@@ -153,8 +156,15 @@ int checkInput(int range){//sprawdza czy wartość jest liczbą oraz czy jest mn
 int main()
 {
     create_Sections();
-    read_Vinyls(); //nie działa
-    read_Sellers(); //działa, ale jakoś dziwnie (dokleja na koniec sekcje wszystkich poprzednich sprzedawców)
+    read_Vinyls();
+    read_Sellers();
+    for(auto it : shop.get_sections())
+    {
+        
+        cout<<it.getVinyl().size();
+        for(auto k : it.getVinyl())
+            cout<<k.get_quantity();
+    }
     cout << "Podaj czas trwania symulacji: " << endl;
     int timeLimit = checkInput(999);
     cout << "Podaj liczbe klientow: " << endl;
@@ -172,45 +182,48 @@ int main()
             int number2 = uniform_int_distribution<int>(0, 14)(generator);
             int number3 = uniform_int_distribution<int>(0, 9)(generator);
             int number4 = uniform_int_distribution<int>(0, 14)(generator);
-            Client client = Client(firstNames[number1], lastNames[number2], genres[number3], artists[number4]);
-            /*for(int i = 0; i < 4; i++){
-                number1 = uniform_int_distribution<int>(0, 309)(generator);
-                number2 = uniform_int_distribution<int>(0, 5)(generator);
-                client.addToShoppingList(shop.get_vinyls()[number1].get_name(), number2);
-            }*/
+            int number5;
+            int number6;
+            vector<pair<string, int> > V;
+            for(int i = 0; i < 4; i++){
+                number5 = uniform_int_distribution<int>(0, 309)(generator);
+                number6 = uniform_int_distribution<int>(1, 5)(generator);
+                V.push_back({shop.get_vinyls()[number5].get_name(), number6});
+            }
+            Client client = Client(firstNames[number1], lastNames[number2], genres[number3], artists[number4], V);
             shop.add_client(client);
-            //cout << client << endl;
         }
-        else{
-            vector<Client> clients = shop.get_clients();
-            for(int i = 0; i < clients.size(); i++){
-                if(clients[i].get_shopping_list().size() == 0) continue;
-                for(auto it = clients[i].get_shopping_list().begin(); it != clients[i].get_shopping_list().end(); it++){
-                    string name = it->first;
-                    int number = it->second;
-                    string genre = shop.getVinylGenre(it->first);
-                    Seller seller;
-                    Vinyl vinyl;
-                    for(int j = 0; j < shop.get_sellers().size(); j++){
-                        seller = shop.get_sellers()[j];
-                        for(int k = 0; k < seller.Get_thematic_sections().size(); k++){
-                            if(seller.Get_thematic_sections()[k].getName() == genre){
-                                seller.Set_status(false);
-                                vinyl = seller.getVinyl(name, genre);
-                            }
+        vector<Client> clients = shop.get_clients();
+        for(int i = 0; i < clients.size(); i++){
+            if(clients[i].get_shopping_list().size() == 0) continue;
+            for(auto it : clients[i].get_shopping_list()){
+                string name = it.first;
+                int number = it.second;
+                string genre = shop.getVinylGenre(it.first);
+                Seller seller;
+                Vinyl vinyl;
+                for(auto q : shop.get_sellers()){
+                    for(auto k : q.Get_thematic_sections()){
+                        if(k.getName() == genre){
+                            q.Set_status(false);
+                            seller = q;
+                            vinyl = q.getVinyl(name, genre);
+                            goto here;
                         }
                     }
-                    if(number <= vinyl.get_quantity()){
-                        vinyl.set_quantity(vinyl.get_quantity() - number);
-                        cout << "Klient " << clients[i].get_firstName() << " " << clients[i].get_lastName() << "kupuje " << number << vinyl.get_name() << "z kategorii cenowej" << vinyl.get_price_category() << "od " << seller.Get_name() << endl;
-                    }
-                    else{
-                        //zamawianie
-                    }
+                }
+                here:
+                cout<<vinyl.get_name();
+                if(number <= vinyl.get_quantity()){
+                    vinyl.set_quantity(vinyl.get_quantity() - number);
+                    cout << "Klient " << clients[i].get_firstName() << " " << clients[i].get_lastName() << " kupuje " << number << " " << vinyl.get_name() << " z kategorii cenowej" << vinyl.get_price_category() << " od " << seller.Get_name() << endl;
+                }
+                else{
+                    //zamawianie
                 }
             }
         }
-        char a;
+        char a = '0';
         cout << "Czy kontynuowac? (t/n)";
         while(a != 't'){
             cin >> a;

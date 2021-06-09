@@ -13,7 +13,7 @@ Seller::Seller(string name1, string surname1, string login1, string password1, s
     login = login1; // przypisuje wiek
     password = password1; // przypisuje pensja
     permission_level = per_level; // przypisuje zakres dostepu
-    //thematic_sections = them_sect; // przypisuje sekcje
+    thematic_sections = them_sect; // przypisuje sekcje
     status = 1;
 }
 
