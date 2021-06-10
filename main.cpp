@@ -17,15 +17,12 @@ void read_Vinyls()
     {
         if(counter == 5)
         {
-            Vinyl vinyl(title, artist, stoi(quantity), price_category, genre);
+            Vinyl* vinyl = new Vinyl(title, artist, stoi(quantity), price_category, genre);
             shop.add_vinyl(vinyl);
-            for(int i = 0; i < shop.get_sections().size(); i++)
+            for(auto it : shop.get_sections())
             {
-                if(shop.get_sections()[i].getName() == genre)
-                    shop.get_sections()[i].addVinyl(vinyl);
-                for(auto it : shop.get_sections())
-                    for(auto k : it.getVinyl())
-                        cout<<k.get_name();
+                if(it -> getName() == genre)
+                    it -> addVinyl(vinyl);
             }
             title = artist = price_category = quantity = genre = "";
             counter = 0;
@@ -53,25 +50,25 @@ void read_Vinyls()
 
 void create_Sections()
 {
-    Section Rock("Rock");
+    Section* Rock = new Section("Rock");
     shop.add_section(Rock);
-    Section Alternative("Alternative");
+    Section* Alternative = new Section("Alternative");
     shop.add_section(Alternative);
-    Section Indie("Indie");
+    Section* Indie = new Section("Indie");
     shop.add_section(Indie);
-    Section Hip_hop("Hip_hop");
+    Section* Hip_hop = new Section("Hip_hop");
     shop.add_section(Hip_hop);
-    Section Blues("Blues");
+    Section* Blues = new Section("Blues");
     shop.add_section(Blues);
-    Section Electronic("Electronic");
+    Section* Electronic = new Section("Electronic");
     shop.add_section(Electronic);
-    Section Jazz("Jazz");
+    Section* Jazz = new Section("Jazz");
     shop.add_section(Jazz);
-    Section Classic("Classic");
+    Section* Classic = new Section("Classic");
     shop.add_section(Classic);
-    Section Pop("Pop");
+    Section* Pop = new Section("Pop");
     shop.add_section(Pop);
-    Section Reggae("Reggae");
+    Section* Reggae = new Section("Reggae");
     shop.add_section(Reggae);
 }
 
@@ -81,10 +78,10 @@ void read_Sellers()
     FILE* file;
     file = fopen("Sellers.txt", "r");
     char letter;
-    int counter;
+    int counter = 0;
     bool status;
     string forname, name, login, password, permmission_level, thematic_sections_str;
-    vector<Section> thematic_sections;
+    vector<Section*> thematic_sections;
     while(letter != EOF)
     {
         if(counter == 6)
@@ -95,7 +92,7 @@ void read_Sellers()
                 if(thematic_sections_str[i] == ',')
                 {
                     for(int j = 0; j < shop.get_sections().size(); j++){
-                        if(shop.get_sections()[j].getName() == help){
+                        if(shop.get_sections()[j] -> getName() == help){
                             thematic_sections.push_back(shop.get_sections()[j]);
                             break;
                         }
@@ -105,7 +102,7 @@ void read_Sellers()
                 }
                 help += thematic_sections_str[i];
             }
-            Seller seller(forname, name, login, password, permmission_level, thematic_sections);
+            Seller* seller = new Seller(forname, name, login, password, permmission_level, thematic_sections);
             shop.add_seller(seller);
             forname = name = login = password = permmission_level = thematic_sections_str = "";
             thematic_sections.clear();
@@ -134,41 +131,29 @@ void read_Sellers()
 }
 
 
-int checkInput(int range){//sprawdza czy wartość jest liczbą oraz czy jest mniejsza lub równa podanemu parametrowi
-    char a;
-    int x;
-    std::cin >> a;
-    if(isdigit(a)){
-        std::cin.unget();
-        std::cin >> x;
-        if(x <= range) return x;
-        else 
-        {
-            std::cout << "Nieprawidlowa wartosc!" << std::endl;
-            return -1;
-        }
-    }
-    std::cout << "Nieprawidlowa wartosc!" << std::endl;
-    return -1;//zwraca -1 gdy wartość jest niepoprawna
-}
-
-
-int main()
+int main(int argc, char* argv[])
 {
+    if(argc != 3)
+    {  
+        std::cout << "Blad\n";
+        return 0;
+    }
+    int timeLimit, clientLimit;
+    try
+    {
+        timeLimit = stoi(argv[1]);
+        clientLimit = stoi(argv[2]);
+    }
+    catch(invalid_argument)
+    {
+        std::cout << "Blad\n";
+        return 0;
+    }
     create_Sections();
     read_Vinyls();
     read_Sellers();
-    for(auto it : shop.get_sections())
-    {
-        
-        cout<<it.getVinyl().size();
-        for(auto k : it.getVinyl())
-            cout<<k.get_quantity();
-    }
-    cout << "Podaj czas trwania symulacji: " << endl;
-    int timeLimit = checkInput(999);
-    cout << "Podaj liczbe klientow: " << endl;
-    int clientLimit = checkInput(999);
+    filebuf fb;
+    fb.open ("ODP.txt",ios::app);
     string firstNames[] = {"Adam", "Bartlomiej", "Anna", "Szymon", "Natalia", "Zuzanna", "Karol", "Jakub", "Dominika", "Piotr", "Ryszard", "Aneta", "Karolina", "Wiktoria", "Marek"};
     string lastNames[] = {"Chmielewski", "Suraj", "Obroslak", "Zając", "Mazur", "Pelc", "Golianek", "Gil", "Baran", "Wieleba", "Bielak", "Wnuczek", "Zuń", "Malysz", "Kubica"};
     string artists[] = {"AC/DC", "Aerosmith", "Arctic Monkeys", "Budka Suflera", "Green Day", "Linkin Park", "Metallica", "Queen", "Toto", "Mac Miller", "Eminem", "Bjork", "Mozart", "Vivaldi", "Britney Spears"};
@@ -185,38 +170,40 @@ int main()
             int number5;
             int number6;
             vector<pair<string, int> > V;
-            for(int i = 0; i < 4; i++){
+            for(int i = 0; i < 2; i++){
                 number5 = uniform_int_distribution<int>(0, 309)(generator);
                 number6 = uniform_int_distribution<int>(1, 5)(generator);
-                V.push_back({shop.get_vinyls()[number5].get_name(), number6});
+                V.push_back({shop.get_vinyls()[number5] -> get_name(), number6});
             }
-            Client client = Client(firstNames[number1], lastNames[number2], genres[number3], artists[number4], V);
+            Client* client = new Client(firstNames[number1], lastNames[number2], genres[number3], artists[number4], V);
             shop.add_client(client);
         }
-        vector<Client> clients = shop.get_clients();
+        vector<Client*> clients = shop.get_clients();
         for(int i = 0; i < clients.size(); i++){
-            if(clients[i].get_shopping_list().size() == 0) continue;
-            for(auto it : clients[i].get_shopping_list()){
+            if(clients[i] -> get_shopping_list().size() == 0) continue;
+            for(auto it : clients[i] -> get_shopping_list()){
                 string name = it.first;
                 int number = it.second;
                 string genre = shop.getVinylGenre(it.first);
                 Seller seller;
-                Vinyl vinyl;
+                Vinyl* vinyl = new Vinyl();
                 for(auto q : shop.get_sellers()){
-                    for(auto k : q.Get_thematic_sections()){
-                        if(k.getName() == genre){
-                            q.Set_status(false);
-                            seller = q;
-                            vinyl = q.getVinyl(name, genre);
+                    for(auto k : q -> Get_thematic_sections()){
+                        if(k -> getName() == genre){
+                            q -> Set_status(false);
+                            seller = *q;
+                            vinyl = q -> getVinyl(name, genre);
                             goto here;
                         }
                     }
                 }
                 here:
-                cout<<vinyl.get_name();
-                if(number <= vinyl.get_quantity()){
-                    vinyl.set_quantity(vinyl.get_quantity() - number);
-                    cout << "Klient " << clients[i].get_firstName() << " " << clients[i].get_lastName() << " kupuje " << number << " " << vinyl.get_name() << " z kategorii cenowej" << vinyl.get_price_category() << " od " << seller.Get_name() << endl;
+                if(number <= vinyl -> get_quantity()){
+                    vinyl -> set_quantity(vinyl -> get_quantity() - number);
+                    cout << "Klient " << clients[i] -> get_firstName() << " " << clients[i] -> get_lastName() << " kupuje " << number << " " << vinyl -> get_name() << " z kategorii cenowej: " << vinyl -> get_price_category() << " od " << seller.Get_name() << " " << seller.Get_surname() << endl;
+                    ostream os(&fb);
+                    os << "Klient " << clients[i] -> get_firstName() << " " << clients[i] -> get_lastName() << " kupuje " << number << " " << vinyl -> get_name() << " z kategorii cenowej: " << vinyl -> get_price_category() << " od " << seller.Get_name() << " " << seller.Get_surname() << endl;
+                    
                 }
                 else{
                     //zamawianie
@@ -224,10 +211,11 @@ int main()
             }
         }
         char a = '0';
-        cout << "Czy kontynuowac? (t/n)";
+        std::cout << "Czy kontynuowac? (t/n)";
         while(a != 't'){
             cin >> a;
         }
     }
+    fb.close();
     return 0;
 }
