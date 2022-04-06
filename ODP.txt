@@ -1,485 +1,113 @@
-Klient Marek Wieleba kupuje 2 
-Bambino z kategorii cenowej: B od Karol Kasperek
-Do zaplaty: 200
-Klient Zuzanna Malysz kupuje 2 
-Pump z kategorii cenowej: A od Karol Kasperek
-Do zaplaty: 100
-Klient Jakub Baran kupuje 3 
-Charmbracelet z kategorii cenowej: C od Karol Kasperek
-Do zaplaty: 450
-Klient Ryszard Obroslak kupuje 3 
-Pearl z kategorii cenowej: C od 
-Piotr Kosmala
-Do zaplaty: 450
-Klient Zuzanna Golianek kupuje 4 
-Diao Bang z kategorii cenowej: A od 
-Piotr Kosmala
-Do zaplaty: 0
-Klient Wiktoria Wnuczek kupuje 1 
-Apart z kategorii cenowej: C od Karol Kasperek
-Do zaplaty: 150
-Klient Wiktoria Wnuczek kupuje 1 
-Apart z kategorii cenowej: C od Karol Kasperek
-Do zaplaty: 150
-Klient Wiktoria Wnuczek kupuje 5 
-Flick Of The Switch z kategorii cenowej: A od Karol Kasperek
-Do zaplaty: 250
-Klient Bartlomiej Malysz kupuje 4 Dirty Deeds Done Dirt Cheap z kategorii cenowej: C od Karol Kasperek
-Do zaplaty: 600
-Klient Bartlomiej Malysz kupuje 2 
-Ultrapop z kategorii cenowej: A od 
-Piotr Kosmala
-Do zaplaty: 100
-Klient Wiktoria Wnuczek kupuje 1 
-Apart z kategorii cenowej: C od Karol Kasperek
-Do zaplaty: 150
-Klient Wiktoria Wnuczek kupuje 1 
-Apart z kategorii cenowej: C od Karol Kasperek
-Do zaplaty: 150
-Klient Wiktoria Wnuczek kupuje 5 
-Flick Of The Switch z kategorii cenowej: A od Karol Kasperek
-Do zaplaty: 250
-Klient Bartlomiej Malysz kupuje 4 Dirty Deeds Done Dirt Cheap z kategorii cenowej: C od Karol Kasperek
-Do zaplaty: 600
-Klient Bartlomiej Malysz kupuje 2 
-Ultrapop z kategorii cenowej: A od 
-Piotr Kosmala
-Do zaplaty: 100
-Klient Wiktoria Wnuczek kupuje 1 
-Apart z kategorii cenowej: C od Karol Kasperek
-Do zaplaty: 150
-Klient Wiktoria Wnuczek kupuje 1 
-Apart z kategorii cenowej: C od Karol Kasperek
-Do zaplaty: 150
-Klient Wiktoria Wnuczek kupuje 5 
-Flick Of The Switch z kategorii cenowej: A od Karol Kasperek
-Do zaplaty: 250
-Klient Bartlomiej Malysz kupuje 4 Dirty Deeds Done Dirt Cheap z kategorii cenowej: C od Karol Kasperek
-Do zaplaty: 600
-Klient Bartlomiej Malysz kupuje 2 
-Ultrapop z kategorii cenowej: A od 
-Piotr Kosmala
-Do zaplaty: 100
-Klient Wiktoria Wnuczek kupuje 1 
-Apart z kategorii cenowej: C od Karol Kasperek
-Do zaplaty: 150
-Klient Wiktoria Wnuczek kupuje 1 
-Apart z kategorii cenowej: C od Karol Kasperek
-Do zaplaty: 150
-Klient Wiktoria Wnuczek kupuje 5 
-Flick Of The Switch z kategorii cenowej: A od Karol Kasperek
-Do zaplaty: 250
-Klient Bartlomiej Malysz kupuje 4 Dirty Deeds Done Dirt Cheap z kategorii cenowej: C od Karol Kasperek
-Do zaplaty: 600
-Klient Bartlomiej Malysz kupuje 2 
-Ultrapop z kategorii cenowej: A od 
-Piotr Kosmala
-Do zaplaty: 100
-Klient Natalia Bielak kupuje 3 
-Damaged z kategorii cenowej: C od 
-Szymon Dyszewski
-Do zaplaty: 450
-Klient Natalia Bielak kupuje 1 
-Out Of The Shadows z kategorii cenowej: A od 
-Piotr Kosmala
-Do zaplaty: 50
-Klient Natalia Bielak kupuje 3 
-Damaged z kategorii cenowej: C od 
-Szymon Dyszewski
-Do zaplaty: 450
-Klient Natalia Bielak kupuje 1 
-Out Of The Shadows z kategorii cenowej: A od 
-Piotr Kosmala
-Do zaplaty: 50
-Klient Anna Wieleba kupuje 5 
-Totally z kategorii cenowej: B od 
-Piotr Kosmala
-Do zaplaty: 500
-Klient Anna Wieleba kupuje 2  z kategorii cenowej:  od  
-Do zaplaty: 500
-Klient Natalia Bielak kupuje 3 
-Damaged z kategorii cenowej: C od 
-Szymon Dyszewski
-Do zaplaty: 450
-Klient Natalia Bielak kupuje 1 
-Out Of The Shadows z kategorii cenowej: A od 
-Piotr Kosmala
-Do zaplaty: 50
-Klient Anna Wieleba kupuje 2  z kategorii cenowej:  od  
-Do zaplaty: 50
-Klient Natalia Bielak kupuje 1 
-Out Of The Shadows z kategorii cenowej: A od 
-Piotr Kosmala
-Do zaplaty: 50
-Klient Anna Wieleba kupuje 5 
-Totally z kategorii cenowej: B od 
-Piotr Kosmala
-Do zaplaty: 500
-Klient Anna Wieleba kupuje 2  z kategorii cenowej:  od  
-Do zaplaty: 500
-Klient Natalia Bielak kupuje 3 
-Damaged z kategorii cenowej: C od 
-Szymon Dyszewski
-Do zaplaty: 450
-Klient Natalia Bielak kupuje 1 
-Out Of The Shadows z kategorii cenowej: A od 
-Piotr Kosmala
-Do zaplaty: 50
-Klient Natalia Bielak kupuje 1 
-Out Of The Shadows z kategorii cenowej: A od 
-Piotr Kosmala
-Do zaplaty: 50
-Klient Anna Wieleba kupuje 5 
-Totally z kategorii cenowej: B od 
-Piotr Kosmala
-Do zaplaty: 500
-Klient Natalia Bielak kupuje 3 
-Damaged z kategorii cenowej: C od 
-Szymon Dyszewski
-Do zaplaty: 450
-Klient Natalia Bielak kupuje 1 
-Out Of The Shadows z kategorii cenowej: A od 
-Piotr Kosmala
-Do zaplaty: 50
-Klient Anna Wieleba kupuje 5 
-Totally z kategorii cenowej: B od 
-Piotr Kosmala
-Do zaplaty: 500
-Klient Natalia Bielak kupuje 3 
-Damaged z kategorii cenowej: C od 
-Szymon Dyszewski
-Do zaplaty: 450
-Klient Natalia Bielak kupuje 1 
-Out Of The Shadows z kategorii cenowej: A od 
-Piotr Kosmala
-Do zaplaty: 50
-Klient Anna Wieleba kupuje 5 
-Totally z kategorii cenowej: B od 
-Piotr Kosmala
-Do zaplaty: 500
-Klient Karol Golianek kupuje 1  z kategorii cenowej:  od  
-Do zaplaty: 0
-Klient Karol Golianek kupuje 4 
-Vulnicura z kategorii cenowej: C od 
-Szymon Dyszewski
-Do zaplaty: 0
-Klient Karol Golianek kupuje 1  z kategorii cenowej:  od  
-Do zaplaty: 0
-Klient Karolina Bielak kupuje 4 
-The Seveth One z kategorii cenowej: B od 
-Piotr Kosmala
-Do zaplaty: 0
-Klient Karolina Bielak kupuje 5 
-Abbey Road z kategorii cenowej: C od Karol Kasperek
-Do zaplaty: 0
-Klient Karol Golianek kupuje 1  z kategorii cenowej:  od  
-Do zaplaty: 0
-Klient Karolina Bielak kupuje 4 
-The Seveth One z kategorii cenowej: B od 
-Piotr Kosmala
-Do zaplaty: 0
-Klient Karol Golianek kupuje 4 
-Vulnicura z kategorii cenowej: C od 
-Szymon Dyszewski
-Do zaplaty: 0
-Klient Karol Golianek kupuje 1  z kategorii cenowej:  od  
-Do zaplaty: 0
-Klient Karolina Bielak kupuje 5 
-Abbey Road z kategorii cenowej: C od Karol Kasperek
-Do zaplaty: 0
-Klient Karol Golianek kupuje 1  z kategorii cenowej:  od  
-Do zaplaty: 0
-Klient Karolina Bielak kupuje 4 
-The Seveth One z kategorii cenowej: B od 
-Piotr Kosmala
-Do zaplaty: 0
-Klient Karol Golianek kupuje 4 
-Vulnicura z kategorii cenowej: C od 
-Szymon Dyszewski
-Do zaplaty: 0
-Klient Karol Golianek kupuje 1  z kategorii cenowej:  od  
-Do zaplaty: 0
-Klient Karolina Bielak kupuje 5 
-Abbey Road z kategorii cenowej: C od Karol Kasperek
-Do zaplaty: 0
-Klient Karol Golianek kupuje 1  z kategorii cenowej:  od  
-Do zaplaty: 0
-Klient Karolina Bielak kupuje 4 
-The Seveth One z kategorii cenowej: B od 
-Piotr Kosmala
-Do zaplaty: 0
-Klient Karol Golianek kupuje 4 
-Vulnicura z kategorii cenowej: C od 
-Szymon Dyszewski
-Do zaplaty: 0
-Klient Karol Golianek kupuje 1  z kategorii cenowej:  od  
-Do zaplaty: 0
-Klient Karolina Bielak kupuje 5 
-Abbey Road z kategorii cenowej: C od Karol Kasperek
-Do zaplaty: 0
-Klient Karol Golianek kupuje 1  z kategorii cenowej:  od  
-Do zaplaty: 0
-Klient Karolina Bielak kupuje 4 
-The Seveth One z kategorii cenowej: B od 
-Piotr Kosmala
-Do zaplaty: 0
-Klient Karol Golianek kupuje 4 
-Vulnicura z kategorii cenowej: C od 
-Szymon Dyszewski
-Do zaplaty: 0
-Klient Karolina Bielak kupuje 5 
-Abbey Road z kategorii cenowej: C od Karol Kasperek
-Do zaplaty: 0
-Klient Marek Zając kupuje 3  z kategorii cenowej:  od  
-Do zaplaty: 0
-Klient Marek Zając kupuje 1 
-Lux Bones z kategorii cenowej: C od 
-Piotr Kosmala
-Do zaplaty: 150
-Klient Marek Zając kupuje 3  z kategorii cenowej:  od  
-Do zaplaty: 150
-Klient Marek Zając kupuje 1 
-Lux Bones z kategorii cenowej: C od 
-Piotr Kosmala
-Do zaplaty: 150
-Klient Piotr Obroslak kupuje 5 
-Evermore z kategorii cenowej: B od Karol Kasperek
-Do zaplaty: 500
-Klient Piotr Obroslak kupuje 2  z kategorii cenowej:  od  
-Do zaplaty: 500
-Klient Marek Zając kupuje 3  z kategorii cenowej:  od  
-Do zaplaty: 500
-Klient Marek Zając kupuje 1 
-Lux Bones z kategorii cenowej: C od 
-Piotr Kosmala
-Do zaplaty: 150
-Klient Piotr Obroslak kupuje 5 
-Evermore z kategorii cenowej: B od Karol Kasperek
-Do zaplaty: 500
-Klient Piotr Obroslak kupuje 2  z kategorii cenowej:  od  
-Do zaplaty: 500
-Klient Marek Zając kupuje 3  z kategorii cenowej:  od  
-Do zaplaty: 500
-Klient Marek Zając kupuje 1 
-Lux Bones z kategorii cenowej: C od 
-Piotr Kosmala
-Do zaplaty: 150
-Klient Piotr Obroslak kupuje 5 
-Evermore z kategorii cenowej: B od Karol Kasperek
-Do zaplaty: 500
-Klient Piotr Obroslak kupuje 2  z kategorii cenowej:  od  
-Do zaplaty: 500
-Klient Marek Zając kupuje 3  z kategorii cenowej:  od  
-Do zaplaty: 500
-Klient Marek Zając kupuje 1 
-Lux Bones z kategorii cenowej: C od 
-Piotr Kosmala
-Do zaplaty: 150
-Klient Piotr Obroslak kupuje 2  z kategorii cenowej:  od  
-Do zaplaty: 150
-Klient Marek Zając kupuje 3  z kategorii cenowej:  od  
-Do zaplaty: 150
-Klient Marek Zając kupuje 1 
-Lux Bones z kategorii cenowej: C od 
-Piotr Kosmala
-Do zaplaty: 150
-Klient Piotr Obroslak kupuje 5 
-Evermore z kategorii cenowej: B od Karol Kasperek
-Do zaplaty: 500
-Klient Piotr Obroslak kupuje 2  z kategorii cenowej:  od  
-Do zaplaty: 500
-Klient Marek Zając kupuje 3  z kategorii cenowej:  od  
-Do zaplaty: 500
-Klient Marek Zając kupuje 1 
-Lux Bones z kategorii cenowej: C od 
-Piotr Kosmala
-Do zaplaty: 150
-Klient Piotr Obroslak kupuje 2  z kategorii cenowej:  od  
-Do zaplaty: 150
-Klient Marek Zając kupuje 3  z kategorii cenowej:  od  
-Do zaplaty: 150
-Klient Marek Zając kupuje 1 
-Lux Bones z kategorii cenowej: C od 
-Piotr Kosmala
-Do zaplaty: 150
-Klient Piotr Obroslak kupuje 5 
-Evermore z kategorii cenowej: B od Karol Kasperek
-Do zaplaty: 500
-Klient Piotr Obroslak kupuje 2  z kategorii cenowej:  od  
-Do zaplaty: 500
-Klient Marek Zając kupuje 3  z kategorii cenowej:  od  
-Do zaplaty: 500
-Klient Marek Zając kupuje 1 
-Lux Bones z kategorii cenowej: C od 
-Piotr Kosmala
-Do zaplaty: 150
-Klient Piotr Obroslak kupuje 5 
-Evermore z kategorii cenowej: B od Karol Kasperek
-Do zaplaty: 500
-Klient Karolina Bielak kupuje 4 
-Discovered z kategorii cenowej: B od 
-Piotr Kosmala
-Do zaplaty: 400
-Klient Karolina Bielak kupuje 4 
-Discovered z kategorii cenowej: B od 
-Piotr Kosmala
-Do zaplaty: 400
-Klient Piotr Pelc kupuje 1  z kategorii cenowej:  od  
-Do zaplaty: 400
-Klient Piotr Pelc kupuje 3 
-Big Calm z kategorii cenowej: A od 
-Szymon Dyszewski
-Do zaplaty: 150
-Klient Karolina Bielak kupuje 4 
-Discovered z kategorii cenowej: B od 
-Piotr Kosmala
-Do zaplaty: 400
-Klient Karolina Bielak kupuje 4  z kategorii cenowej:  od  
-Do zaplaty: 400
-Klient Piotr Pelc kupuje 1  z kategorii cenowej:  od  
-Do zaplaty: 400
-Klient Piotr Pelc kupuje 3 
-Big Calm z kategorii cenowej: A od 
-Szymon Dyszewski
-Do zaplaty: 150
-Klient Adam Gil kupuje 2 
+Klient Dominika Zuń kupuje 2 
+Wild World z kategorii cenowej: C od Karol Kasperek
+Do zaplaty: 300
+Klient Dominika Zuń kupuje 2 
 The Last Stand z kategorii cenowej: B od Karol Kasperek
 Do zaplaty: 200
-Klient Adam Gil kupuje 2 
-Somers Siblings z kategorii cenowej: B od Karol Kasperek
-Do zaplaty: 200
-Klient Karolina Bielak kupuje 4 
-Discovered z kategorii cenowej: B od 
-Piotr Kosmala
-Do zaplaty: 400
-Klient Adam Gil kupuje 2 
+Klient Dominika Zuń kupuje 2 
+Wild World z kategorii cenowej: C od Karol Kasperek
+Do zaplaty: 300
+Klient Dominika Zuń kupuje 2 
 The Last Stand z kategorii cenowej: B od Karol Kasperek
 Do zaplaty: 200
-Klient Adam Gil kupuje 2 
-Somers Siblings z kategorii cenowej: B od Karol Kasperek
+Klient Piotr Kubica kupuje 2 
+S&M2 z kategorii cenowej: B od Karol Kasperek
 Do zaplaty: 200
-Klient Piotr Pelc kupuje 3 
-Big Calm z kategorii cenowej: A od 
-Szymon Dyszewski
-Do zaplaty: 150
-Klient Adam Gil kupuje 2 
+Klient Piotr Kubica kupuje 2 
+Serious Hits z kategorii cenowej: C od 
+Piotr Kosmala
+Do zaplaty: 300
+Klient Dominika Zuń kupuje 2 
 The Last Stand z kategorii cenowej: B od Karol Kasperek
 Do zaplaty: 200
-Klient Adam Gil kupuje 2 
-Somers Siblings z kategorii cenowej: B od Karol Kasperek
+Klient Piotr Kubica kupuje 2 
+S&M2 z kategorii cenowej: B od Karol Kasperek
 Do zaplaty: 200
-Klient Ryszard Malysz kupuje 5  z kategorii cenowej:  od  
-Do zaplaty: 0
-Klient Ryszard Malysz kupuje 3  z kategorii cenowej:  od  
-Do zaplaty: 0
-Klient Ryszard Malysz kupuje 5  z kategorii cenowej:  od  
-Do zaplaty: 0
-Klient Ryszard Malysz kupuje 3  z kategorii cenowej:  od  
-Do zaplaty: 0
-Klient Adam Mazur kupuje 3 
-Innuendo z kategorii cenowej: B od Karol Kasperek
-Do zaplaty: 300
-Klient Adam Mazur kupuje 2 
-Gold z kategorii cenowej: A od 
+Klient Piotr Kubica kupuje 2 
+Serious Hits z kategorii cenowej: C od 
 Piotr Kosmala
-Do zaplaty: 100
-Klient Ryszard Malysz kupuje 5  z kategorii cenowej:  od  
-Do zaplaty: 100
-Klient Ryszard Malysz kupuje 3  z kategorii cenowej:  od  
-Do zaplaty: 100
-Klient Adam Mazur kupuje 3 
-Innuendo z kategorii cenowej: B od Karol Kasperek
 Do zaplaty: 300
-Klient Adam Mazur kupuje 2 
-Gold z kategorii cenowej: A od 
+Klient Ryszard Kubica kupuje 4 
+5: The Grey Chapter z kategorii cenowej: C od Karol Kasperek
+Do zaplaty: 600
+Klient Ryszard Kubica kupuje 2 
+Celestial z kategorii cenowej: B od 
 Piotr Kosmala
-Do zaplaty: 100
-Klient Natalia Wieleba kupuje 1 
-The Four Seasons z kategorii cenowej: A od 
-Szymon Dyszewski
-Do zaplaty: 50
-Klient Natalia Wieleba kupuje 1 
-Music z kategorii cenowej: A od Karol Kasperek
-Do zaplaty: 50
-Klient Ryszard Malysz kupuje 5  z kategorii cenowej:  od  
-Do zaplaty: 50
-Klient Ryszard Malysz kupuje 3  z kategorii cenowej:  od  
-Do zaplaty: 50
-Klient Natalia Wieleba kupuje 1 
-The Four Seasons z kategorii cenowej: A od 
-Szymon Dyszewski
-Do zaplaty: 50
-Klient Natalia Wieleba kupuje 1 
-Music z kategorii cenowej: A od Karol Kasperek
-Do zaplaty: 50
-Klient Ryszard Malysz kupuje 5  z kategorii cenowej:  od  
-Do zaplaty: 50
-Klient Ryszard Malysz kupuje 3  z kategorii cenowej:  od  
-Do zaplaty: 50
-Klient Adam Mazur kupuje 3 
-Innuendo z kategorii cenowej: B od Karol Kasperek
+Do zaplaty: 200
+Klient Dominika Zuń kupuje 2 
+Wild World z kategorii cenowej: C od Karol Kasperek
 Do zaplaty: 300
-Klient Adam Mazur kupuje 2 
-Gold z kategorii cenowej: A od 
+Klient Piotr Kubica kupuje 2 
+S&M2 z kategorii cenowej: B od Karol Kasperek
+Do zaplaty: 200
+Klient Piotr Kubica kupuje 2 
+Serious Hits z kategorii cenowej: C od 
 Piotr Kosmala
-Do zaplaty: 100
-Klient Natalia Wieleba kupuje 1 
-The Four Seasons z kategorii cenowej: A od 
-Szymon Dyszewski
-Do zaplaty: 50
-Klient Natalia Wieleba kupuje 1 
-Music z kategorii cenowej: A od Karol Kasperek
-Do zaplaty: 50
-Klient Ryszard Malysz kupuje 5  z kategorii cenowej:  od  
-Do zaplaty: 50
-Klient Ryszard Malysz kupuje 3  z kategorii cenowej:  od  
-Do zaplaty: 50
-Klient Natalia Wieleba kupuje 1 
-The Four Seasons z kategorii cenowej: A od 
-Szymon Dyszewski
-Do zaplaty: 50
-Klient Natalia Wieleba kupuje 1 
-Music z kategorii cenowej: A od Karol Kasperek
-Do zaplaty: 50
-Klient Adam Mazur kupuje 3 
-Innuendo z kategorii cenowej: B od Karol Kasperek
 Do zaplaty: 300
-Klient Adam Mazur kupuje 2 
-Gold z kategorii cenowej: A od 
+Klient Ryszard Kubica kupuje 4 
+5: The Grey Chapter z kategorii cenowej: C od Karol Kasperek
+Do zaplaty: 600
+Klient Ryszard Kubica kupuje 2 
+Celestial z kategorii cenowej: B od 
 Piotr Kosmala
-Do zaplaty: 100
-Klient Natalia Wieleba kupuje 1 
-The Four Seasons z kategorii cenowej: A od 
-Szymon Dyszewski
-Do zaplaty: 50
-Klient Natalia Wieleba kupuje 1 
-Music z kategorii cenowej: A od Karol Kasperek
-Do zaplaty: 50
-Klient Natalia Wieleba kupuje 1 
-The Four Seasons z kategorii cenowej: A od 
-Szymon Dyszewski
-Do zaplaty: 50
-Klient Natalia Wieleba kupuje 1 
-Music z kategorii cenowej: A od Karol Kasperek
-Do zaplaty: 50
-Klient Adam Mazur kupuje 3 
-Innuendo z kategorii cenowej: B od Karol Kasperek
+Do zaplaty: 200
+Klient Dominika Zuń kupuje 2 
+The Last Stand z kategorii cenowej: B od Karol Kasperek
+Do zaplaty: 200
+Klient Piotr Kubica kupuje 2 
+Serious Hits z kategorii cenowej: C od 
+Piotr Kosmala
 Do zaplaty: 300
-Klient Adam Mazur kupuje 2 
-Gold z kategorii cenowej: A od 
+Klient Ryszard Kubica kupuje 2 
+Celestial z kategorii cenowej: B od 
 Piotr Kosmala
-Do zaplaty: 100
-Klient Natalia Wieleba kupuje 1 
-The Four Seasons z kategorii cenowej: A od 
-Szymon Dyszewski
-Do zaplaty: 50
-Klient Natalia Wieleba kupuje 1 
-Music z kategorii cenowej: A od Karol Kasperek
-Do zaplaty: 50
-Klient Natalia Wieleba kupuje 1 
-The Four Seasons z kategorii cenowej: A od 
-Szymon Dyszewski
-Do zaplaty: 50
-Klient Natalia Wieleba kupuje 1 
-Music z kategorii cenowej: A od Karol Kasperek
-Do zaplaty: 50
+Do zaplaty: 200
+Klient Dominika Zuń kupuje 2 
+Wild World z kategorii cenowej: C od Karol Kasperek
+Do zaplaty: 300
+Klient Piotr Kubica kupuje 2 
+S&M2 z kategorii cenowej: B od Karol Kasperek
+Do zaplaty: 200
+Klient Ryszard Kubica kupuje 4 
+5: The Grey Chapter z kategorii cenowej: C od Karol Kasperek
+Do zaplaty: 600
+Klient Dominika Zuń kupuje 2 
+The Last Stand z kategorii cenowej: B od Karol Kasperek
+Do zaplaty: 200
+Klient Piotr Kubica kupuje 2 
+Serious Hits z kategorii cenowej: C od 
+Piotr Kosmala
+Do zaplaty: 300
+Klient Ryszard Kubica kupuje 2 
+Celestial z kategorii cenowej: B od 
+Piotr Kosmala
+Do zaplaty: 200
+Klient Dominika Zuń kupuje 2 
+Wild World z kategorii cenowej: C od Karol Kasperek
+Do zaplaty: 300
+Klient Piotr Kubica kupuje 2 
+S&M2 z kategorii cenowej: B od Karol Kasperek
+Do zaplaty: 200
+Klient Ryszard Kubica kupuje 4 
+5: The Grey Chapter z kategorii cenowej: C od Karol Kasperek
+Do zaplaty: 600
+Klient Dominika Zuń kupuje 2 
+The Last Stand z kategorii cenowej: B od Karol Kasperek
+Do zaplaty: 200
+Klient Piotr Kubica kupuje 2 
+Serious Hits z kategorii cenowej: C od 
+Piotr Kosmala
+Do zaplaty: 300
+Klient Ryszard Kubica kupuje 2 
+Celestial z kategorii cenowej: B od 
+Piotr Kosmala
+Do zaplaty: 200
+Klient Dominika Zuń kupuje 2 
+Wild World z kategorii cenowej: C od Karol Kasperek
+Do zaplaty: 300
+Klient Piotr Kubica kupuje 2 
+S&M2 z kategorii cenowej: B od Karol Kasperek
+Do zaplaty: 200
+Klient Ryszard Kubica kupuje 4 
+5: The Grey Chapter z kategorii cenowej: C od Karol Kasperek
+Do zaplaty: 600

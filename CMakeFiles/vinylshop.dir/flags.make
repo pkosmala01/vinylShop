@@ -6,5 +6,5 @@ CXX_FLAGS = -g
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/pkosmala/PROI/include 
+CXX_INCLUDES = -I/home/pkosmala/workdings/PROI/include 
 

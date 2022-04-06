@@ -4,12 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/pkosmala/PROI/main.cpp" "/home/pkosmala/PROI/CMakeFiles/vinylshop.dir/main.cpp.o"
-  "/home/pkosmala/PROI/source/client.cpp" "/home/pkosmala/PROI/CMakeFiles/vinylshop.dir/source/client.cpp.o"
-  "/home/pkosmala/PROI/source/section.cpp" "/home/pkosmala/PROI/CMakeFiles/vinylshop.dir/source/section.cpp.o"
-  "/home/pkosmala/PROI/source/seller.cpp" "/home/pkosmala/PROI/CMakeFiles/vinylshop.dir/source/seller.cpp.o"
-  "/home/pkosmala/PROI/source/shop.cpp" "/home/pkosmala/PROI/CMakeFiles/vinylshop.dir/source/shop.cpp.o"
-  "/home/pkosmala/PROI/source/vinyl.cpp" "/home/pkosmala/PROI/CMakeFiles/vinylshop.dir/source/vinyl.cpp.o"
+  "/home/pkosmala/workdings/PROI/main.cpp" "/home/pkosmala/workdings/PROI/CMakeFiles/vinylshop.dir/main.cpp.o"
+  "/home/pkosmala/workdings/PROI/source/client.cpp" "/home/pkosmala/workdings/PROI/CMakeFiles/vinylshop.dir/source/client.cpp.o"
+  "/home/pkosmala/workdings/PROI/source/section.cpp" "/home/pkosmala/workdings/PROI/CMakeFiles/vinylshop.dir/source/section.cpp.o"
+  "/home/pkosmala/workdings/PROI/source/seller.cpp" "/home/pkosmala/workdings/PROI/CMakeFiles/vinylshop.dir/source/seller.cpp.o"
+  "/home/pkosmala/workdings/PROI/source/shop.cpp" "/home/pkosmala/workdings/PROI/CMakeFiles/vinylshop.dir/source/shop.cpp.o"
+  "/home/pkosmala/workdings/PROI/source/vinyl.cpp" "/home/pkosmala/workdings/PROI/CMakeFiles/vinylshop.dir/source/vinyl.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
