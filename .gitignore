@@ -1,0 +1,7 @@
+/.vscode
+**/CMakeFiles
+**/cmake_install_cmake
+**/CMakeCache.txt
+**/Makefile
+ODP.txt
+vinylshop
