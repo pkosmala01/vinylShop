@@ -1,3 +1,0 @@
-/home/pkosmala/workdings/PROI/CMakeFiles/rebuild_cache.dir
-/home/pkosmala/workdings/PROI/CMakeFiles/edit_cache.dir
-/home/pkosmala/workdings/PROI/CMakeFiles/vinylshop.dir
